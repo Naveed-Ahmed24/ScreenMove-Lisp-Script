@@ -14,6 +14,9 @@
 			((= 2 setter)
 				(command "_camera" (list (nth 0 viewCtr1) (nth 1 viewCtr1) (/ viewsize1 0.465948)) (list (nth 0 viewCtr1) (nth 1 viewCtr1) 0.0) "view" "yes") 
 				(command "'_perspective" 0)
+			 	(setq sset1 (ssget "x" (list (cons 0 "camera"))))
+				(command "Erase" sset1 "")
+
 			)
 		)	
 	)
@@ -26,6 +29,8 @@
 			((= 2 setter)
 				(command "_camera" (list (nth 0 viewCtr2) (nth 1 viewCtr2) (/ viewsize2 0.465948)) (list (nth 0 viewCtr2) (nth 1 viewCtr2) 0.0) "view" "yes") 
 				(command "'_perspective" 0)
+			 	(setq sset1 (ssget "x" (list (cons 0 "camera"))))
+				(command "Erase" sset1 "")
 			)
 		)	
 	)
