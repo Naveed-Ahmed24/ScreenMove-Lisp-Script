@@ -1,5 +1,5 @@
 # Useful-Lisp-Scripts
-A collection of Lisp Scripts I have made/am working on for 2d AutoCAD manipulation
+A Lisp Script I have made/am working on for 2d AutoCAD manipulation
 
 ScreenMovement basic documentation
 when called it will wait for two inputs of integer nature, if they are not integer or the inputs do not match any conditionals the system will close peacefully. 
